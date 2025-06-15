@@ -6,9 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  // GitHub Pagesのリポジトリ名に合わせてbasePath設定（必要に応じて）
-  // basePath: '/kenkyu-kaihatu-literacy',
-  // assetPrefix: '/kenkyu-kaihatu-literacy/',
+  // GitHub Pagesのリポジトリ名に合わせてbasePath設定
+  basePath: '/kenkyu-kaihatu-literacy',
+  assetPrefix: '/kenkyu-kaihatu-literacy/',
 };
 
 export default nextConfig;
