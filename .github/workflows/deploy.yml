@@ -36,6 +36,12 @@ jobs:
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
         
+      - name: Debug - List build output
+        run: ls -la ./out/
+        
+      - name: List out directory contents
+        run: ls -la ./out/
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
